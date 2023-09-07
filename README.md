@@ -4,7 +4,7 @@
 
 |배우는 이론|구현하는 기능|___packagee___|
 |---|--------------|:----------:|
-|Variables|JS Clock|*Javascript*|
+|[Variables](#variables)|JS Clock|*Javascript*|
 |Functions|JS To Do List|*localStorage*|
 |Data Types|Get Geolocation|*AJAX*|
 |Arrays, Objects|Get Weather Information|*JSON*|
@@ -13,5 +13,9 @@
 |if / else / for||*OpenWeather API*|
 
 
-
+## Variables
+```
+let
+const 
+```
 
