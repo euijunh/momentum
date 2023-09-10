@@ -137,7 +137,9 @@ let 키워드로 선언된 변수는 선언 단계와 초기화 단계가 분리
 지역 변수는 전역 변수보다 더 높은 우선순위를 가진다.
 
 
+let, const -> Block Scope, Function Scope
 
+var -> Function Scope 만 가능하다.
 
 
 
