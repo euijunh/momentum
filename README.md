@@ -172,6 +172,8 @@ trunc(-2.6); // 결과 : -2
 
 ---
 
+# [*Clone Info*]
+
 ## Variables
 ```
 var 변수 - 재선언 O / 재할당 O
