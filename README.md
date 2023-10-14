@@ -136,7 +136,7 @@ var -> Function Scope 만 가능하다.
 
 
 
-## Math
+### Math
 
 `Math.random()` -> 0 이상 1 미만의 구간에서 근사적으로 균일한(approximately uniform) 부동소숫점 의사난수를 반환
 
