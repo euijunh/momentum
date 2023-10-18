@@ -7,28 +7,31 @@
     <title>Momentum</title>
   </head>
   <body>
-    <h2 id="clock">00:00:00</h2>
-    <form id="login-form" class="hidden">
-      <input 
-        required
-        maxlength="15"
-        type="text"
-        placeholder="What is your name?"
-      />
-      <input type="submit" value="Log In" />
-    </form>
-    <h1 id="greeting" class="hidden"></h1>
-    <form id="todo-form"">
-      <input type="text" placeholder="Write a To Do and Press Enter" required />
-    </form>
-    <ul id="todo-list"></ul>
-    <div id="quote">
-      <span></span>
-      <span></span>
-    </div>
-    <div id="weather">
-      <span></span>
-      <span></span>
+    <div id="container">
+      <h2 id="clock" class="item">00:00:00</h2>
+      <div id="weather" class="hidden item">
+        <img src="img/1487.gif" />
+        <span></span>
+        <span></span>
+      </div>
+      <form id="login-form" class="hidden item">
+        <input 
+          required
+          maxlength="15"
+          type="text"
+          placeholder="What is your name?"
+        />
+        <input type="submit" value="Log In" />
+      </form>
+      <h1 id="greeting" class="hidden item"></h1>
+      <form id="todo-form" class="hidden item">
+        <input type="text" placeholder="Write a To Do and Press Enter" required />
+      </form>
+      <ul id="todo-list" class="hidden item"></ul>
+      <div id="quote" class="item">
+        <span></span>
+        <span style="display: block;"></span>
+      </div>
     </div>
     <script src="./js/greetings.js"></script>
     <script src="./js/clock.js"></script>
